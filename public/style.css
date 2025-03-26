@@ -1,0 +1,191 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ECEFF1;
+  color: rgba(0,0,0,0.87);
+}
+
+header {
+  background: white;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header img {
+  max-width: 150px;
+}
+
+nav a {
+  color: #007BFF;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 5px;
+}
+
+#app {
+  margin-top: 2em;
+}
+
+
+.search-container {
+  margin-bottom: 2em;
+}
+
+.search-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.search-row input[type="text"],
+.search-row input[type="date"] {
+  flex: 1;
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search-row input[type="text"]:last-child,
+.search-row input[type="date"]:last-child {
+  margin-right: 0;
+}
+
+.search-container button {
+  padding: 0.5em 1em;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.search-container button:hover {
+  background: #0056b3;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 1em;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.75em 1.5em;
+  background: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.search-container {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.search-container input[type="text"] {
+  padding: 0.5em;
+  width: 300px;
+  max-width: 100%;
+}
+
+.search-container button {
+  padding: 0.5em 1em;
+  background: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background: #0056b3;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ffa100;
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 1.6;
+  margin: 1em 0;
+}
+
+.note {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.note h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.note-details {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.note-details p {
+  margin: 0;
+}
+
+.content-preview {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #444;
+}

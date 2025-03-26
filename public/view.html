@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+    <header>
+      <img src="/orano.png" alt="Orano logo" style="width: 100px;">
+      <nav>
+        <a href="/" id="write-link">Écrire des fiches</a>
+        <a href="/view.html" id="view-link">Consulter des fiches</a>
+      </nav>
+    </header>
+  <main id="app">
+    <div class="search-container">
+      <div class="search-row">
+        <input type="text" id="search-title" placeholder="Mots clés...">
+      </div>
+      <div class="search-row">
+        <input type="text" id="search-name" placeholder="Filtrer par nom">
+        <input type="text" id="search-place" placeholder="Filtrer par lieu">
+        <input type="date" id="search-date" placeholder="Filtrer par date">
+        <button id="search-button">Rechercher</button>
+      </div>
+    </div>
+    <ul id="notes-list"></ul>
+  </main>
+  <script src="/script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(registration => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        })
+        .catch(error => {
+          console.error('Service Worker registration failed:', error);
+        });
+    }
+  </script>
+</body>
+</html>
