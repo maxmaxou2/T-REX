@@ -1,6 +1,6 @@
 # T-REX (Technical Return of Experience)
 
-**Disclaimer:** This project was created in around 5 hours for a hackathon with Orano. As I was discovering many technologies during this process, the code should be considered as a proof of concept rather than production-ready code.
+**Disclaimer:** This project was created in around 6 hours for a hackathon with Orano. As I was discovering many technologies during this process, the code should be considered as a proof of concept rather than production-ready code.
 
 ## Project Overview
 
